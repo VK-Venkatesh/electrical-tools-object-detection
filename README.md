@@ -7,6 +7,23 @@ This project focuses on **object detection of electrical tools** using **YOLOv8*
 A total of **500 images** were collected from **Google Images** using **Chrome WebDriver**, labeled in Roboflow, and split into training, validation, and testing sets. The model was trained, evaluated, and finally deployed using a **Streamlit web app** for real-time detection on images and videos.
 
 ---
+## Data
+
+Due to large file sizes, the full dataset is **hosted on Kaggle** instead of GitHub.  
+You can access and download the dataset directly using the following link:
+
+🔗 **Kaggle Dataset:** [Electrical Tools Object Detection Dataset](https://www.kaggle.com/datasets/venkatesh2410/od-imglables)
+
+### 📁 Dataset Details
+- **Total Images:** 500+  
+- **Classes:** `['brush', 'drill machine', 'fine point pliers', 'hammer', 'knife', 'pliers', 'scissor', 'screwdrivers', 'spanners', 'tape']`
+- **Split Ratio:**  
+  - 🟩 Train: 70%  
+  - 🟨 Validation: 10%  
+  - 🟦 Test: 20%  
+- **Format:** YOLOv8 (Images + .txt Labels)
+- **Labeled Using:** [Roboflow](https://roboflow.com/)
+---
 
 ## 🧩 Project Pipeline
 
