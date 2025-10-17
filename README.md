@@ -21,7 +21,7 @@ A total of **500 images** were collected from **Google Images** using **Chrome W
 * Classes:['brush', 'drill machine', 'fine point pliers', 'hammer', 'knife', 'pliers', 'scissor', 'screwdrivers', 'spanners', 'tape']
 * Roboflow handled data preprocessing, resizing, and augmentation.
 * Dataset split: **Train 70%**, **Validation 10%**, **Test 20%**.
-* Exported dataset in **YOLOv8 format**, which includes:
+* Exported dataset in **YOLOv8 format**, which includes: train-img,labels valid-img,labels test-img,labels
 
 ---
 
