@@ -1,0 +1,33 @@
+requirements.txt
+# Core Dependencies
+python>=3.8
+numpy
+pandas
+opencv-python
+matplotlib
+seaborn
+
+# Deep Learning & YOLO
+torch>=2.0.0
+torchvision
+ultralytics==8.2.0  # YOLOv8 framework
+
+# Data Handling & Image Utilities
+Pillow
+tqdm
+pyyaml
+requests
+
+# Roboflow Integration (optional)
+roboflow
+
+# Web App Deployment
+streamlit==1.29.0
+
+# Video Handling
+moviepy
+
+# Utilities
+scikit-learn
+ipython
+notebook
