@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 45
+names: ['1', 'Adjustable wrench', 'Automatic Center Punch', 'Channel lock pliers', 'Claw hammer', 'Cordless electric drilldrivers', 'Diagonal cutting pliers', 'Drill bit sets', 'Electrical wire stripper', 'Flexible extension bit', 'Groove pliers', 'Hand broom and dustpan', 'Headlamp', 'Hex Allen key sets', 'Locking pliers', 'Measuring tape', 'Mini needle pliers', 'Needle pliers', 'Nut driver', 'Open-end wrench', 'Phillips head screwdrivers', 'Precision screwdrivers', 'Precision tool', 'Regular pliers', 'Rubber mallet', 'Screw and fastener box', 'Screw box', 'Slip joint pliers', 'Stud finder', 'Tin snips', 'Tool backpack', 'Toolbox with various fasteners', 'Voltage Tester', 'Wire stripper', 'brush', 'drill machine', 'fine point pliers', 'hammer', 'knife', 'pliers', 'scissor', 'screwdrivers', 'screwdrivers with multiple sizes', 'spanners', 'tape']
+
+roboflow:
+  workspace: dl-object-detection
+  project: object-detection-electrical-appl-okdbx
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dl-object-detection/object-detection-electrical-appl-okdbx/dataset/1
